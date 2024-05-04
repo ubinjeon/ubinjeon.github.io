@@ -17,19 +17,19 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100" id="page-top">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Portfolio.</span></a>
+                    <a class="navbar-brand" href="#page-top"><span class="fw-bolder text-primary">Portfolio.</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skills">Skills & Experience</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                 </div>
             </header>
             <!-- About Section-->
-            <section class="bg-light py-5">
+            <section class="bg-light py-5" id="about">
                 <div class="container px-5">
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
@@ -199,7 +199,7 @@
             </section>
             
             <!-- Expertise Start -->
-            <section class="py-5">
+            <section class="py-5" id="skills">
                 <div class="container-xxl py-6 pb-5" id="skill">
                     <div class="container">
                         <div class="row g-5">
@@ -207,7 +207,7 @@
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Skills & Experience</span></h2>
                                 <p class="text-muted mb-2">학업을 통해 수학과 통계학의 기초지식을 쌓았고,</p>
                                 <p class="text-muted mb-2">문제해결 및 분석 업무 경험을 하였습니다.</p>
-                                <p class="text-muted mb-4">AI 프로젝트들을 통해 기획, 데이터전처리, 모델링, 파이썬 프로그래밍 역량을 향상시켰습니다.</p>
+                                <p class="text-muted mb-4">AI 프로젝트들을 통해 데이터전처리, 모델링, 파이썬 프로그래밍 역량을 향상시켰습니다.</p>
                                 <h3 class="mb-4 fw-bolder">My Skills</h3>
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
@@ -283,13 +283,13 @@
                                     <div id="tab-1" class="tab-pane fade show p-0 active">
                                         <div class="row gy-5 gx-4">
                                             <div class="col-sm-12">
-                                                <h5 class="fw-bolder">K-Digital AI 기반 챗봇 및 OCR 개발 전문가 6기</h5>
+                                                <h5>K-Digital AI 기반 챗봇 및 OCR 개발 전문가 6기</h5>
                                                 <hr class="text-primary my-2">
                                                 <p class="text-primary mb-1">2023.10 - 2024.04</p>
                                                 <h6 class="mb-0 text-muted">코리아 IT 아카데미</h6>
                                             </div>
                                             <div class="col-sm-12">
-                                                <h5 class="fw-bolder">Process and Performance Analyst</h5>
+                                                <h5>Process and Performance Analyst</h5>
                                                 <hr class="text-primary my-2">
                                                 <p class="text-primary mb-1">2019.10 - 2022.04</p>
                                                 <h6 class="mb-0 text-muted">LX Pantos, Netherlands</h6>
@@ -301,7 +301,7 @@
                                                 <h6 class="mb-0">University of Helsinki, Finland</h6>
                                             </div> -->
                                             <div class="col-sm-12">
-                                                <h5 class="fw-bolder">Cost Planner</h5>
+                                                <h5>Cost Planner</h5>
                                                 <hr class="text-primary my-2">
                                                 <p class="text-primary mb-1">2012.10 - 2016.07</p>
                                                 <h6 class="mb-0 text-muted">CEICON Ltd, Kuwait</h6>
@@ -311,13 +311,13 @@
                                     <div id="tab-2" class="tab-pane fade show p-0">
                                         <div class="row gy-5 gx-4">
                                             <div class="col-sm-12">
-                                                <h5 class="fw-bolder">계량경제학 / 비즈니스 분석 전공</h5>
+                                                <h5>계량경제학 / 비즈니스 분석 전공</h5>
                                                 <hr class="text-primary my-2">
                                                 <p class="text-primary mb-1">2016.08 - 2019.07</p>
                                                 <h6 class="mb-0 text-muted">Erasmus University Rotterdam, Netherlands</h6>
                                             </div>
                                             <div class="col-sm-12">
-                                                <h5 class="fw-bolder">국제경제학 / 교환학생 프로그램</h5>
+                                                <h5>국제경제학 / 교환학생 프로그램</h5>
                                                 <hr class="text-primary my-2">
                                                 <p class="text-primary mb-1">2018.08 - 2018.12</p>
                                                 <h6 class="mb-0 text-muted">University of Helsinki, Finland</h6>
@@ -345,7 +345,7 @@
             <!-- Expertise End -->
             
             <!-- Projects Section-->
-            <section class="bg-light py-5">
+            <section class="bg-light py-5" id="projects">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
                         <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
@@ -353,7 +353,7 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
                             <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
@@ -369,7 +369,7 @@
                                 </div>
                             </div>
                             <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
@@ -409,14 +409,14 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Yubin Jeon 2024</div></div>
+                    <!-- <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>
                         <a class="small" href="#!">Terms</a>
                         <span class="mx-1">&middot;</span>
                         <a class="small" href="#!">Contact</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>

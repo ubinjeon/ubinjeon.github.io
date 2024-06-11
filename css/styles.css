@@ -11589,7 +11589,7 @@ html {
 }
 .profile .profile-img {
   height: 10vw;
-  max-height: 30rem;
+  max-height: 20rem;
   position: absolute;
   bottom: 0;
   left: 50%;

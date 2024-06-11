@@ -11582,7 +11582,7 @@ html {
   position: relative;
   height: 20vw;
   width: 15vw;
-  /* border-radius: 5vw; */
+  border-radius: 2vw;
   margin-top: 5vw;
   max-height: 20rem;
   max-width: 15rem;
@@ -11590,12 +11590,13 @@ html {
 .profile .profile-img {
   height: 10vw;
   max-height: 20rem;
+  border-radius: 2vw;
   position: absolute;
   bottom: 2px;
   left: 50%;
   transform: translateX(-50%);
 }
-.profile .dots-1 {
+/* .profile .dots-1 {
   position: absolute;
   width: 3vw;
   right: 1.5vw;
@@ -11630,7 +11631,7 @@ html {
 }
 .profile .dots-4 svg {
   fill: #1e30f3;
-}
+} */
 
 @media (min-width: 576px) {
   .profile {

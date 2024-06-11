@@ -11581,8 +11581,8 @@ html {
 .profile {
   position: relative;
   height: 20vw;
-  width: 20vw;
-  border-radius: 5vw;
+  width: 15vw;
+  /* border-radius: 5vw; */
   margin-top: 5vw;
   max-height: 20rem;
   max-width: 20rem;
@@ -11591,7 +11591,7 @@ html {
   height: 10vw;
   max-height: 20rem;
   position: absolute;
-  bottom: 0;
+  bottom: 2px;
   left: 50%;
   transform: translateX(-50%);
 }
